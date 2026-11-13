@@ -1,0 +1,17 @@
+{
+  "name": "edgecomet",
+  "owner": {
+    "name": "EdgeComet",
+    "email": "support@edgecomet.com"
+  },
+  "metadata": {
+    "description": "The EdgeComet plugin for Claude, installable before its directory listing."
+  },
+  "plugins": [
+    {
+      "name": "edgecomet",
+      "source": "./",
+      "description": "SEO and AI search workflows on your EdgeComet data: technical audits, AI bot traffic, rendering and cache checks, traffic drops, release checks, keyword opportunities, structured data, client reports and Edge SEO fixes."
+    }
+  ]
+}

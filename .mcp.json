@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "edgecomet": {
+      "type": "http",
+      "url": "https://cloud.edgecomet.com/mcp"
+    }
+  }
+}

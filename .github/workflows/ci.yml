@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - name: Repository checks
+        run: node scripts/check.mjs
+      - name: Install Claude Code
+        run: npm install --global @anthropic-ai/claude-code
+      - name: Validate the plugin
+        run: claude plugin validate --profile directory --strict .

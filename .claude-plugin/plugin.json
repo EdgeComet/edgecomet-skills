@@ -1,0 +1,24 @@
+{
+  "name": "edgecomet",
+  "version": "1.0.0",
+  "description": "SEO and AI search workflows on your EdgeComet data: technical audits, AI bot traffic, rendering and cache checks, traffic drops, release checks, keyword opportunities, structured data, client reports and Edge SEO fixes.",
+  "author": {
+    "name": "EdgeComet",
+    "email": "support@edgecomet.com",
+    "url": "https://edgecomet.com"
+  },
+  "homepage": "https://edgecomet.com/docs/mcp/claude-connector.html",
+  "repository": "https://github.com/EdgeComet/edgecomet-skills",
+  "privacyPolicyUrl": "https://edgecomet.com/privacy-policy/",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "technical-seo",
+    "ai-bots",
+    "ai-visibility",
+    "bot-analytics",
+    "edge-seo",
+    "javascript-seo",
+    "search-console"
+  ]
+}
